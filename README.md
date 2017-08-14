@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+![dryhopmagazine](https://dryhopmagazine.github.com/images/dryhopmagazinelogo1.png)
+## Welcome to Dry Hop Magazine
 
-You can use the [editor on GitHub](https://github.com/dryhopmagazine/dryhopmagazine/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Dry Hop Magazine is a new media publication dedicated to the North American craft beer industry.  From brewers, equipment, and beers to marketing, science, and innovation we cover it all.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
