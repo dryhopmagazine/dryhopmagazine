@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DryHop Magazine</title>
+  </head>
+  <body>
+	<a href="www.dryhopmagazine.com/main.html">
+    <img alt="DryHop Magazine" src="http://dryhopmagazine.github.io/dryhopmagazine/dryhopmagazinelogo1.png">
+	</a>
+  </body>
+</html>
