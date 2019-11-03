@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+	<canvas id="myCanvas" width="960" height="540" style = "border:1px solid #000000;"></canvas>
+	
+
+	
+<script>
+	
+	
+	var canvas = document.getElementById("myCanvas");
+	var ctx = canvas.getContext("2d");
+	
+function drawRandomLine(){
+	
+	ctx.beginPath();
+	ctx.lineWidth = "5";
+	ctx.strokeStyle = "black";
+	ctx.moveTo((Math.random() * 960), (Math.random() * 540));
+	ctx.lineTo((Math.random() * 960), (Math.random() * 540));
+	ctx.stroke();
+}
+
+function drawRandomArc(){
+
+	ctx.beginPath();
+	ctx.lineWidth = "5";
+	ctx.strokeStyle = "green";
+	ctx.moveTo((Math.random() * 960), (Math.random() * 540));
+	ctx.arcTo((Math.random() * 960), (Math.random() * 540), (Math.random() * 960), (Math.random() * 540), 50);
+	ctx.stroke();
+
+}
+
+
+function clearCanvas(){
+
+	ctx.clearRect(0,0, 960, 540);
+	
+}
+
+</script>
+
+	<div>
+	<button onclick="drawRandomLine()"> Draw Random Line </button>
+	</div>
+	
+	<div>
+	<button onclick="drawRandomArc()"> Draw Random Arc </button>
+	</div>
+	
+	<div>
+	<button onclick="clearCanvas()"> Clear Canvas </button>
+	</div>
+	
+
+</body>
+
+</html>
